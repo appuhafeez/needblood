@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.duobros.appu.bloodbank_beeta.BloodPost_frag"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/name"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"/>
+            <Spinner
+                android:id="@+id/bloodgrp"
+                android:padding="15dp"
+                android:layout_margin="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <Spinner
+                android:id="@+id/state"
+                android:padding="15dp"
+                android:layout_margin="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <Spinner
+                android:id="@+id/Area"
+                android:layout_width="match_parent"
+                android:padding="15dp"
+                android:layout_margin="0dp"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="phone"/>
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:padding="15dp"
+                android:layout_margin="10dp"
+                android:inputType="textMultiLine"/>
+            <Button
+                android:id="@+id/post"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:drawableLeft="@drawable/ic_send_white_18dp"
+                android:background="@drawable/mybutton"
+                android:text="Request for blood"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

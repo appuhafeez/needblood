@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8A0707</color>
+    <color name="colorPrimaryDark">#8D0720</color>
+    <color name="colorAccent">#8A0707</color>
+    <color name="forButton">#ff1a1a</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="tabs">@android:color/holo_red_dark</color>
+    <color name="tabs1">#ffffff</color>
+
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+
+    tools:context="com.duobros.appu.bloodbank_beeta.Mainscreen">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal|right"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:scaleType="centerCrop"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/header"/>
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutus"
+            android:background="@drawable/header"
+            android:drawableRight="@drawable/ic_textsms_white_24dp"
+            android:layout_gravity="center_horizontal|center_vertical|right"/>-->
+    </FrameLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/breq"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Donate"
+            android:layout_marginLeft="5dp"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/ic_favorite_white_18dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:background="@drawable/mybutton"
+            android:onClick="fragchange" />
+        <Button
+            android:id="@+id/bpost"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Request"
+            android:drawableLeft="@drawable/ic_invert_colors_white_18dp"
+            android:background="@drawable/mybutton"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:onClick="fragchange" />
+        <Button
+            android:id="@+id/bacc"
+            android:drawableLeft="@drawable/ic_build_white_18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Account"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/mybutton"
+            android:onClick="fragchange" />
+    </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <!-- <fragment
+        android:id="@+id/frag"
+        android:name="com.example.appu.bloodbank_beeta.BloodPost_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_blood_post_frag" />-->
+    </FrameLayout>
+</LinearLayout>

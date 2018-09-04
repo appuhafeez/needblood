@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "891278561176",
+    "firebase_url": "https://blood-bank-4162e.firebaseio.com",
+    "project_id": "blood-bank-4162e",
+    "storage_bucket": "blood-bank-4162e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891278561176:android:384f463205be6f55",
+        "android_client_info": {
+          "package_name": "com.duobros.appu.bloodbank_beeta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891278561176-4ish0qo001pdgrkm78ikrj8qcjhv9dt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7zm-cNfliF7ys0ciJ_wmb4or432rl_ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

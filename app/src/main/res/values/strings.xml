@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Need Blood</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detailed_view_act">Detailed_view_act</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="tabs">
+        <item>Donate</item>
+        <item>Request</item>
+        <item>Account</item>
+    </string-array>
+</resources>
